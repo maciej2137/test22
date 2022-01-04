@@ -12,6 +12,7 @@ app.get("/handleForm",function(req, res){
         klasa:"3i1",
         grupa:"Grupa 1"
     }
+    res.send(obj)
 })
 
 app.listen(PORT, function () {
